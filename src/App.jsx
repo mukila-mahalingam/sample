@@ -82,7 +82,7 @@ function App() {
 
   function searchingAlgm(arr, x) {
     let pairedArr = arr.map((value, index) => ({ value, index }));
-  
+
     // Sort based on value
     pairedArr.sort((a, b) => a.value - b.value);
     let left = 0,
